@@ -25,7 +25,7 @@ namespace Listas_Exercicios {
                 Employee emp = lista.Find(x => x.Id == num);
                 if (emp != null)
                 {
-                    Console.Write("Enter the percentage: ");
+                    Console.Write("Enter the percentage %: ");
                     double percentage = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                     emp.Aumento(percentage);
                 }
